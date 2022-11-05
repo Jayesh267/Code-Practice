@@ -1,0 +1,15 @@
+C:\Udemy\Code-Practice\bin\Debug\net6.0\Code-Practice.exe
+C:\Udemy\Code-Practice\bin\Debug\net6.0\Code-Practice.deps.json
+C:\Udemy\Code-Practice\bin\Debug\net6.0\Code-Practice.runtimeconfig.json
+C:\Udemy\Code-Practice\bin\Debug\net6.0\Code-Practice.dll
+C:\Udemy\Code-Practice\bin\Debug\net6.0\Code-Practice.pdb
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.csproj.AssemblyReference.cache
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.AssemblyInfoInputs.cache
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.AssemblyInfo.cs
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.csproj.CoreCompileInputs.cache
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.dll
+C:\Udemy\Code-Practice\obj\Debug\net6.0\refint\Code-Practice.dll
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.pdb
+C:\Udemy\Code-Practice\obj\Debug\net6.0\Code-Practice.genruntimeconfig.cache
+C:\Udemy\Code-Practice\obj\Debug\net6.0\ref\Code-Practice.dll
