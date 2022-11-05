@@ -14,7 +14,7 @@ namespace Udemy
             Console.WriteLine(fibonacciResult);
 
             SumOfDigits p2 = new SumOfDigits();
-            var sumDigitsResult = p2.sumOfDigits(423);
+            var sumDigitsResult = p2.sumOfDigits(427);
             Console.WriteLine(sumDigitsResult);         
         }
 
