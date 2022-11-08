@@ -1,14 +1,25 @@
 using System;
 
-public class Power : FactFibo
+namespace Udemy
 {
-    //find power of a number
-    public int npower(int n, int exp)
+    public class Power : FactFibo
     {
-        if (n==1)
+        //find power of a number
+        public int npower(int n, int exp)
         {
-            return 1;
+            if (exp==1)
+            {
+                return n;
+            }
+            if (exp==0)
+            {
+                return 1;
+            }
+            if (exp<0)
+            {
+                return -1;
+            }
+            return n * npower(n, exp-1);
         }
-        return n * npower(n, exp-1);
     }
 }

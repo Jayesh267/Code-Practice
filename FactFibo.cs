@@ -15,7 +15,19 @@ namespace Udemy
 
             SumOfDigits p2 = new SumOfDigits();
             var sumDigitsResult = p2.sumOfDigits(427);
-            Console.WriteLine(sumDigitsResult);         
+            Console.WriteLine(sumDigitsResult);
+
+            Power p3 = new Power();
+            var powerResult = p3.npower(2, 4);
+            Console.WriteLine(powerResult);
+
+            GCD p4 = new GCD();
+            var gcdResult = p4.gcd(8, -12);
+            Console.WriteLine(gcdResult);
+
+            DecimalBinary p5 = new DecimalBinary();
+            var binaryResult = p5.decimalBinary(134);
+            Console.WriteLine(binaryResult);
         }
 
         //Recursive method to find factorial
