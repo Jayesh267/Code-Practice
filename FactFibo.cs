@@ -46,6 +46,15 @@ namespace Udemy
             //Array Traversal
             Console.WriteLine("Array Traversal");
             s1.traverseArray();
+            
+            //Search array
+            Console.WriteLine("Searching Array");
+            s1.searchArray(50);
+
+            //Delete value
+            Console.WriteLine("Deleting array element");
+            s1.deleteValue(3);
+            Console.WriteLine(s1.arr[3]);
         }
 
         //Recursive method to find factorial
