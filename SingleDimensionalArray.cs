@@ -52,5 +52,33 @@ namespace Udemy
                 Console.WriteLine("Array no longer exists!!");
             }
         }
+        
+        //Search for an element in an array
+        public void searchArray(int valueToSearch)
+        {
+            for (int i=0; i<arr.Length; i++)
+            {
+                if (arr[i] == valueToSearch)
+                {
+                    Console.WriteLine("Value found at " + i);
+                    return;
+                }
+            }
+            Console.WriteLine("Value not found");
+        }
+
+        //Delete value from an array item
+        public void deleteValue(int indexToBeDeleted)
+        {
+            try
+            {
+                arr[indexToBeDeleted] = Int32.MinValue;
+                Console.WriteLine("Value deleted successfully");
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine("Index out of range");
+            }
+        }
     }
 }
