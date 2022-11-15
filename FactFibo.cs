@@ -31,6 +31,21 @@ namespace Udemy
 
             LearnArray p6 = new LearnArray();
             p6.learnArray();
+            
+            SingleDimensionalArray s1 = new SingleDimensionalArray(10);
+
+            s1.insert(1, 10);
+            s1.insert(0, 0);
+            s1.insert(3, 20);
+            s1.insert(3, 22);
+            s1.insert(13, 20);
+
+            //Accessing an array
+            Console.WriteLine(s1.arr[0]);
+
+            //Array Traversal
+            Console.WriteLine("Array Traversal");
+            s1.traverseArray();
         }
 
         //Recursive method to find factorial
