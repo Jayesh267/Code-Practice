@@ -56,22 +56,11 @@ namespace Udemy
             s1.deleteValue(3);
             Console.WriteLine(s1.arr[3]);
 
-            //Display 2D Array
-                    
-            //Step 1 - Declare
-            int[][] arr2 = null;
-
-            //Step 2 - Instantiate
-            arr2 = new int[2][2];
             
-            //Step 3 - Initialize
-            arr2[0][0] = 2;
-            arr2[0][1] = 3;
-            arr2[1][0] = 6;
-            arr2[1][1] = 7;
 
-            DoubleDimensionalArray d1 = new DoubleDimensionalArray(arr2);
-            d1.
+            
+            
+            
         }
 
         //Recursive method to find factorial

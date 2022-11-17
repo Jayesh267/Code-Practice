@@ -4,8 +4,26 @@ namespace Udemy
 {
     public class DoubleDimensionalArray
     {
+        public DoubleDimensionalArray()
+        {
+
+        }
+
         public void traverse2DArray()
         {
+            //Display 2D Array
+
+            //Step 1 - Declare
+            int[][] arr2 = null;
+
+            //Step 2 - Instantiate
+            arr2 = new int[2][2];
+
+            //Step 3 - Initialize
+            arr2[0][0] = 2;
+            arr2[0][1] = 3;
+            arr2[1][0] = 6;
+            arr2[1][1] = 7;
             int rowLen = arr2.GetLength(0);
             int colLen = arr2.GetLength(1);
 
