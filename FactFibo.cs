@@ -56,7 +56,7 @@ namespace Udemy
             s1.deleteValue(3);
             Console.WriteLine(s1.arr[3]);
             
-            Class
+            
             
         }
 

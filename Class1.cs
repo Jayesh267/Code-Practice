@@ -3,12 +3,16 @@
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-public class Class2
+namespace Udemy
 {
-	public Class2()
+	public class Class2
 	{
-		//
-		// TODO: Add constructor logic here
-		//
+		public Class2()
+		{
+			//
+			// TODO: Add constructor logic here
+			//
+		}
 	}
 }
+

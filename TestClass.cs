@@ -3,10 +3,14 @@
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-public class Class1
+namespace Udemy
 {
-	public Class1()
+	public class Class1
 	{
-		Console.WriteLine("ABC");
+		public Class1()
+		{
+			Console.WriteLine("ABC");
+		}
 	}
 }
+
