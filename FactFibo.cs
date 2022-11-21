@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Udemy
 {
@@ -52,9 +52,9 @@ namespace Udemy
             Console.WriteLine("Deleting array element");
             s1.deleteValue(3);
             Console.WriteLine(s1.arr[3]);
-            
-            
-            
+
+            DoubleDimensionalArray d1 = new DoubleDimensionalArray(3,3);
+            d1.insertInArray(0, 0, 30);
         }
 
         //Recursive method to find factorial
