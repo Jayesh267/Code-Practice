@@ -28,9 +28,6 @@ namespace Udemy
             DecimalBinary p5 = new DecimalBinary();
             var binaryResult = p5.decimalBinary(134);
             Console.WriteLine(binaryResult);
-
-            LearnArray p6 = new LearnArray();
-            p6.learnArray();
             
             SingleDimensionalArray s1 = new SingleDimensionalArray(10);
 
