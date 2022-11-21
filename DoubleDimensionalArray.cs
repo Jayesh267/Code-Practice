@@ -4,9 +4,38 @@ namespace Udemy
 {
     public class DoubleDimensionalArray
     {
-        public DoubleDimensionalArray()
+        int[,] arr2 = null;
+        public DoubleDimensionalArray(int numberOfRows, int numberOfCols)
         {
+            this.arr2 = new int[numberOfRows, numberOfCols];
+            for (int i=0; i<numberOfRows; i++)
+            {
+                for (int j=0; j<numberOfCols; j++)
+                {
+                    arr2[numberOfRows, numberOfCols] = Int32.MinValue;
+                }
+            }
+        }
 
+        public void insertInArray(int row, int col, int value)
+        {
+            try
+            {
+                if (arr2[row, col] == Int32.MinValue)
+                {
+                    arr2[row, col] = value;
+                    Console.WriteLine("Successfully inserted the value");
+                }
+                else
+                {
+                    Console.WriteLine("Cell is already occupied");
+                }
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine("Invalid index for 2D array");
+            }
+            
         }
 
         public void traverse2DArray()
@@ -31,6 +60,35 @@ namespace Udemy
                     Console.WriteLine(string.Format("{0} ", arr2[i, j]));
                 }
                 Console.WriteLine();
+            }
+        }
+        
+        public void searchInArray(int value)
+        {
+            for (int i=0; i<arr2.Length; i++)
+            {
+                for (int j=0; j<arr2.GetLength(1); j++)
+                {
+                    if (arr2[i,j] == value)
+                    {
+                        Console.WriteLine("Item found at row " + i + " and column " + j);
+                        return;
+                    }
+                }
+            }
+            Console.WriteLine("Item not found");
+        }
+
+        public void deleteItemInArray(int row, int col)
+        {
+            try
+            {
+                Console.WriteLine("Successfully deleted");
+                arr2[row, col] = Int32.MinValue;
+            }
+            catch (IndexOutOfRangeException ex)
+            {
+                Console.WriteLine("Index is invalid for this array");
             }
         }
     }
