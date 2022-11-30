@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "i39cA460fYKKJyGBYckRMgRxkc2DND8x2jbtG8BhcnrfYYuXkit6WMCQRnBYKwr4TiBkI3d2gkBJkzxRlwEmcg==",
+  "dgSpecHash": "qH8jX8s6uCgn0MKBKs/ScK3iQDe8tt950wCAcT3Fy6puFcIQ1dHOArqfKSkZ2qzn+iOOWKHkCq7xwQ/ynGPYBA==",
   "success": true,
-  "projectFilePath": "C:\\Udemy\\Code-Practice\\Code-Practice.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\JMhatre\\code-pracs\\Code-Practice\\Code-Practice.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JMhatre\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\JMhatre\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\JMhatre\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\JMhatre\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
